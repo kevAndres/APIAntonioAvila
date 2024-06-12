@@ -16,8 +16,7 @@ const app = express();
 const corsOptions = {
   origin: ['https://aplicativo-antonio-avila.vercel.app', 'http://localhost:3000'], // Agrega aquí los orígenes permitidos
   optionsSuccessStatus: 200,
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  allowedHeaders: "Content-Type,Authorization"
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 };
 app.use(cors(corsOptions));
 
